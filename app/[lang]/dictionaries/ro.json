@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "services": "Servicii",
+    "about": "Despre",
+    "contact": "Contact",
+    "cta": "Contactați-ne"
+  },
+  "hero": {
+    "eyebrow": "Grădinărit & Amenajări",
+    "title1": "Modelăm",
+    "title2": "Natura Dvs.",
+    "subtitle": "Calitate care se vede. Servicii care conving. Transformăm grădina dumneavoastră în locul preferat.",
+    "cta_primary": "Contactați-ne",
+    "cta_secondary": "Vezi serviciile",
+    "rating": "De încredere · Rapid · Profesionist"
+  },
+  "about": {
+    "lead_strong": "De la grădini mici până la amenajări complete",
+    "lead_rest": " — conectăm natura și spațiile de locuit în locuri în care vă simțiți bine.",
+    "stats": {
+      "years_value": "10+",
+      "years_label": "Ani de experiență",
+      "gardens_value": "500+",
+      "gardens_label": "Grădini amenajate",
+      "clients_value": "300+",
+      "clients_label": "Clienți mulțumiți",
+      "hours_value": "15.000+",
+      "hours_label": "Ore de muncă"
+    }
+  },
+  "services": {
+    "title": "Serviciile noastre",
+    "subtitle": "Totul de la un singur partener — pentru persoane fizice și firme.",
+    "items": {
+      "gartenpflege": {
+        "name": "Întreținere grădini",
+        "desc": "Întreținere periodică, tuns gazon, plivit, fertilizare — grădina dvs. arată impecabil tot anul."
+      },
+      "pflasterarbeiten": {
+        "name": "Pavaje",
+        "desc": "Alei, terase și intrări — montate precis, cu materiale de calitate superioară."
+      },
+      "heckenschnitt": {
+        "name": "Toaletare garduri vii",
+        "desc": "Tăieri de formare și întreținere pentru orice tip de gard viu. Curat, uniform, profesionist."
+      },
+      "baumfaellung": {
+        "name": "Tăieri de copaci",
+        "desc": "Tăieri și evacuare în siguranță — chiar și în spații înguste, cu echipament modern."
+      },
+      "rollrasen": {
+        "name": "Gazon rulou",
+        "desc": "Gazon verde, instant. Pregătire, montaj și instrucțiuni de îngrijire — totul inclus."
+      },
+      "winterdienst": {
+        "name": "Serviciu de iarnă",
+        "desc": "Deszăpezire și antiderapant pentru spații private și comerciale. De încredere, chiar și dimineața devreme."
+      }
+    }
+  },
+  "contact": {
+    "title": "Luați legătura",
+    "subtitle": "Spuneți-ne despre proiectul dvs. — vă răspundem în 24 de ore.",
+    "name": "Nume",
+    "name_placeholder": "Numele dvs. complet",
+    "email": "E-mail",
+    "email_placeholder": "nume@exemplu.ro",
+    "phone": "Telefon",
+    "phone_placeholder": "07xx ...",
+    "service": "Serviciu",
+    "service_placeholder": "Ce serviciu vă interesează?",
+    "message": "Mesaj",
+    "message_placeholder": "Descrieți pe scurt solicitarea dvs. ...",
+    "submit": "Trimite cererea",
+    "sending": "Se trimite ...",
+    "success": "Mulțumim! Mesajul a fost trimis. Vă vom contacta în curând.",
+    "error": "A apărut o eroare. Încercați mai târziu sau sunați-ne.",
+    "phone_label": "Sună",
+    "whatsapp_label": "WhatsApp",
+    "email_label": "Trimite email"
+  },
+  "footer": {
+    "tagline": "Modelăm natura dvs.",
+    "rights": "Toate drepturile rezervate.",
+    "contact": "Contact",
+    "services": "Servicii",
+    "legal_notice": "Date juridice",
+    "privacy": "Confidențialitate"
+  }
+}

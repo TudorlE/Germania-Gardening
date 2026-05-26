@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Start",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "cta": "Kontakt aufnehmen"
+  },
+  "hero": {
+    "eyebrow": "Garten- & Landschaftsbau",
+    "title1": "Wir gestalten",
+    "title2": "Ihre Natur",
+    "subtitle": "Qualität, die man sieht. Service, der überzeugt. Wir machen Ihren Garten zu Ihrem Lieblingsplatz.",
+    "cta_primary": "Jetzt anfragen",
+    "cta_secondary": "Leistungen ansehen",
+    "rating": "Zuverlässig · Schnell · Professionell"
+  },
+  "about": {
+    "lead_strong": "Vom kleinen Vorgarten bis zur kompletten Außenanlage",
+    "lead_rest": " — wir verbinden Natur und Lebensräume zu Orten, an denen Sie sich wohlfühlen.",
+    "stats": {
+      "years_value": "10+",
+      "years_label": "Jahre Erfahrung",
+      "gardens_value": "500+",
+      "gardens_label": "Gestaltete Gärten",
+      "clients_value": "300+",
+      "clients_label": "Zufriedene Kunden",
+      "hours_value": "15.000+",
+      "hours_label": "Arbeitsstunden"
+    }
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Alles aus einer Hand — für Privatkunden und Gewerbe.",
+    "items": {
+      "gartenpflege": {
+        "name": "Gartenpflege",
+        "desc": "Regelmäßige Pflege, Rasenmähen, Unkraut entfernen, Düngung — Ihr Garten bleibt das ganze Jahr in Bestform."
+      },
+      "pflasterarbeiten": {
+        "name": "Pflasterarbeiten",
+        "desc": "Einfahrten, Wege und Terrassen — präzise verlegt mit hochwertigen Materialien."
+      },
+      "heckenschnitt": {
+        "name": "Heckenschnitt",
+        "desc": "Form- und Erhaltungsschnitt für Hecken aller Art. Sauber, gleichmäßig, fachgerecht."
+      },
+      "baumfaellung": {
+        "name": "Baumfällung",
+        "desc": "Sichere Fällung und Entsorgung — auch in engen Lagen, mit moderner Ausrüstung."
+      },
+      "rollrasen": {
+        "name": "Rollrasen",
+        "desc": "Sofort grüner Rasen. Vorbereitung, Verlegung und Pflegehinweise — alles inklusive."
+      },
+      "winterdienst": {
+        "name": "Winterdienst",
+        "desc": "Räum- und Streudienst für Privat- und Gewerbeflächen. Zuverlässig auch früh am Morgen."
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Erzählen Sie uns von Ihrem Projekt — wir melden uns innerhalb von 24 Stunden.",
+    "name": "Name",
+    "name_placeholder": "Ihr vollständiger Name",
+    "email": "E-Mail",
+    "email_placeholder": "name@beispiel.de",
+    "phone": "Telefon",
+    "phone_placeholder": "0176 ...",
+    "service": "Leistung",
+    "service_placeholder": "Welche Leistung interessiert Sie?",
+    "message": "Nachricht",
+    "message_placeholder": "Beschreiben Sie kurz Ihr Anliegen ...",
+    "submit": "Anfrage senden",
+    "sending": "Wird gesendet ...",
+    "success": "Danke! Ihre Anfrage wurde gesendet. Wir melden uns in Kürze.",
+    "error": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut oder rufen Sie uns an.",
+    "phone_label": "Anrufen",
+    "whatsapp_label": "WhatsApp",
+    "email_label": "E-Mail schreiben"
+  },
+  "footer": {
+    "tagline": "Wir gestalten Ihre Natur.",
+    "rights": "Alle Rechte vorbehalten.",
+    "contact": "Kontakt",
+    "services": "Leistungen",
+    "legal_notice": "Impressum",
+    "privacy": "Datenschutz"
+  }
+}
