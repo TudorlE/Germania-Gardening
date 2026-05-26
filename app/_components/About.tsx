@@ -36,8 +36,8 @@ export function About({ dict }: { dict: Dictionary }) {
           <Reveal delay={150}>
             <div className="relative aspect-[5/4] rounded-2xl overflow-hidden border border-border-strong group">
               <img
-                src="https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                alt="Moderne Gartengestaltung mit Beleuchtung und gepflegten Pflanzen"
+                src="/about-garden.jpg"
+                alt="Moderner Gartenpavillon aus Glas in gepflegter Gartenanlage"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-105"
                 loading="lazy"
               />

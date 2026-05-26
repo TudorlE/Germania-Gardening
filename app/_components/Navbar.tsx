@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import { Logo } from './Logo';
-import { LanguageSwitcher } from './LanguageSwitcher';
 import type { Dictionary, Locale } from '../[lang]/dictionaries';
 
 const SECTIONS = ['services', 'about', 'contact'] as const;
@@ -143,7 +142,6 @@ export function Navbar({
           </nav>
 
           <div className="flex items-center gap-3">
-            <LanguageSwitcher current={locale} />
             <Link
               href={`/${locale}#contact`}
               className="hidden sm:inline-flex btn-primary text-sm font-medium px-4 py-2 rounded-full"

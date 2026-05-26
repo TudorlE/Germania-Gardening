@@ -84,12 +84,6 @@ export function Hero({
         </div>
       </div>
 
-      {/* Scroll cue */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 pointer-events-none">
-        <div className="w-6 h-10 rounded-full border border-fg/30 flex items-start justify-center p-1.5">
-          <span className="block w-1 h-2 rounded-full bg-leaf animate-bounce" />
-        </div>
-      </div>
     </section>
   );
 }
