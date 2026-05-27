@@ -59,6 +59,17 @@
       }
     }
   },
+  "showcase": {
+    "title": "Vorher / Nachher",
+    "subtitle": "Ein paar Projekte, bei denen wir das Beste aus dem Vorgefundenen herausgeholt haben. Ziehen Sie den Regler, um den Unterschied zu sehen.",
+    "before": "Vorher",
+    "after": "Nachher",
+    "items": {
+      "rasen": "Rasen & Rollrasen",
+      "fassade": "Fassade & Treppen",
+      "pflaster": "Pflasterarbeiten"
+    }
+  },
   "contact": {
     "title": "Kontakt aufnehmen",
     "subtitle": "Erzählen Sie uns von Ihrem Projekt — wir melden uns innerhalb von 24 Stunden.",
