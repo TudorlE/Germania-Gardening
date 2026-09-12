@@ -72,15 +72,15 @@ export function Footer({
                 rel="noopener noreferrer"
                 className="hover:text-leaf transition-colors duration-300"
               >
-                WhatsApp: 0176 81022990
+                WhatsApp: +49 176 81022990
               </a>
             </li>
             <li>
               <a
-                href="mailto:mpetrasco@web.de"
+                href="mailto:mpetrasco8@gmail.com"
                 className="hover:text-leaf transition-colors duration-300 break-all"
               >
-                mpetrasco@web.de
+                mpetrasco8@gmail.com
               </a>
             </li>
           </ul>

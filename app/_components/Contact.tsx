@@ -33,13 +33,13 @@ export function Contact({ dict }: { dict: Dictionary }) {
                 href="https://wa.me/4917681022990"
                 external
                 label={dict.contact.whatsapp_label}
-                value="0176 81022990"
+                value="+49 176 81022990"
                 icon={<WhatsAppIcon />}
               />
               <ContactRow
-                href="mailto:mpetrasco@web.de"
+                href="mailto:mpetrasco8@gmail.com"
                 label={dict.contact.email_label}
-                value="mpetrasco@web.de"
+                value="mpetrasco8@gmail.com"
                 icon={<MailIcon />}
               />
             </ul>

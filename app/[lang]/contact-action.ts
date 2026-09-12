@@ -37,7 +37,7 @@ export async function sendContactMessage(
 
   const user = process.env.GMAIL_USER;
   const pass = process.env.GMAIL_APP_PASSWORD;
-  const to = process.env.CONTACT_TO || 'mpetrasco@web.de';
+  const to = process.env.CONTACT_TO || 'mpetrasco8@gmail.com';
 
   if (!user || !pass) {
     console.error(
@@ -256,7 +256,7 @@ function buildEmailHtml(data: ContactData): string {
                   <td style="font-size:12px; color:#7a8580; line-height:1.6;">
                     <strong style="color:#9aa39c;">MP Galabau</strong> · Garten- &amp; Landschaftsbau<br>
                     <a href="tel:+4917662528728" style="color:#9aa39c; text-decoration:none;">0176 62528728</a> &nbsp;·&nbsp;
-                    <a href="https://wa.me/4917681022990" style="color:#9aa39c; text-decoration:none;">WhatsApp 0176 81022990</a><br>
+                    <a href="https://wa.me/4917681022990" style="color:#9aa39c; text-decoration:none;">WhatsApp +49 176 81022990</a><br>
                     <span style="color:#5a635e;">Diese Nachricht wurde automatisch durch das Kontaktformular generiert. Antworten Sie direkt, um mit dem Absender in Kontakt zu treten.</span>
                   </td>
                 </tr>

@@ -232,10 +232,10 @@ export function Navbar({
             0176 62528728
           </a>
           <a
-            href="mailto:mpetrasco@web.de"
+            href="mailto:mpetrasco8@gmail.com"
             className="block hover:text-leaf transition-colors"
           >
-            mpetrasco@web.de
+            mpetrasco8@gmail.com
           </a>
         </div>
       </aside>
