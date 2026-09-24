@@ -37,7 +37,7 @@ export async function sendContactMessage(
 
   const user = process.env.GMAIL_USER;
   const pass = process.env.GMAIL_APP_PASSWORD;
-  const to = process.env.CONTACT_TO || 'mpetrasco8@gmail.com';
+  const to = process.env.CONTACT_TO || 'mpetrasco@web.de';
 
   if (!user || !pass) {
     console.error(

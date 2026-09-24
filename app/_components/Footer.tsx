@@ -77,10 +77,10 @@ export function Footer({
             </li>
             <li>
               <a
-                href="mailto:mpetrasco8@gmail.com"
+                href="mailto:mpetrasco@web.de"
                 className="hover:text-leaf transition-colors duration-300 break-all"
               >
-                mpetrasco8@gmail.com
+                mpetrasco@web.de
               </a>
             </li>
           </ul>

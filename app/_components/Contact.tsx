@@ -37,9 +37,9 @@ export function Contact({ dict }: { dict: Dictionary }) {
                 icon={<WhatsAppIcon />}
               />
               <ContactRow
-                href="mailto:mpetrasco8@gmail.com"
+                href="mailto:mpetrasco@web.de"
                 label={dict.contact.email_label}
-                value="mpetrasco8@gmail.com"
+                value="mpetrasco@web.de"
                 icon={<MailIcon />}
               />
             </ul>
