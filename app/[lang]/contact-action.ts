@@ -35,21 +35,30 @@ export async function sendContactMessage(
     return { status: 'error', message: 'Invalid email' };
   }
 
-  const user = process.env.GMAIL_USER;
-  const pass = process.env.GMAIL_APP_PASSWORD;
+  // Prefer web.de SMTP; fall back to Gmail while the old env vars are still set
+  const useWebDe = Boolean(process.env.WEBDE_USER && process.env.WEBDE_PASSWORD);
+  const user = useWebDe ? process.env.WEBDE_USER : process.env.GMAIL_USER;
+  const pass = useWebDe ? process.env.WEBDE_PASSWORD : process.env.GMAIL_APP_PASSWORD;
   const to = process.env.CONTACT_TO || 'mpetrasco@web.de';
 
   if (!user || !pass) {
     console.error(
-      '[contact] GMAIL_USER / GMAIL_APP_PASSWORD environment variables are not set.',
+      '[contact] WEBDE_USER / WEBDE_PASSWORD (or GMAIL_USER / GMAIL_APP_PASSWORD) environment variables are not set.',
     );
     return { status: 'error', message: 'mail-config' };
   }
 
-  const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: { user, pass },
-  });
+  const transporter = useWebDe
+    ? nodemailer.createTransport({
+        host: 'smtp.web.de',
+        port: 587,
+        secure: false, // STARTTLS
+        auth: { user, pass },
+      })
+    : nodemailer.createTransport({
+        service: 'gmail',
+        auth: { user, pass },
+      });
 
   const subject = `Neue Anfrage von ${data.name}${
     data.service ? ` — ${data.service}` : ''

@@ -11,27 +11,23 @@ npm run dev
 
 Öffnen Sie http://localhost:3000 — Sie werden automatisch zur passenden Sprache weitergeleitet (`/de`, `/en` oder `/ro`).
 
-## Kontakt-Formular einrichten (Gmail)
+## Kontakt-Formular einrichten (web.de)
 
-Das Kontakt-Formular sendet Anfragen über Gmail SMTP per Server Action an `mpetrasco@web.de` (konfigurierbar).
+Das Kontakt-Formular sendet Anfragen per Server Action direkt über den SMTP-Server von web.de (`smtp.web.de:587`, STARTTLS) an `mpetrasco@web.de` (konfigurierbar über `CONTACT_TO`).
 
-1. Im **Gmail-Konto**, das senden soll, **2-Faktor-Authentifizierung aktivieren**: <https://myaccount.google.com/security>
-2. Ein **App-Passwort** erstellen (App: „Mail", Gerät: „Other → MP Galabau Website"): <https://myaccount.google.com/apppasswords>. Es entsteht ein 16-stelliger Code.
-3. Im Projektordner die Datei `.env.local.example` zu `.env.local` kopieren und Werte eintragen:
+1. Bei **web.de** einloggen → **Einstellungen → POP3/IMAP Abruf** → „POP3 und IMAP Zugriff erlauben" aktivieren (sonst lehnt web.de den SMTP-Versand ab).
+2. Ist die 2-Faktor-Anmeldung aktiv, ein **anwendungsspezifisches Passwort** erstellen und dieses verwenden.
+3. `.env.local.example` zu `.env.local` kopieren und Werte eintragen (auf Vercel dieselben Variablen unter *Settings → Environment Variables* setzen und neu deployen):
 
 ```env
-GMAIL_USER=ihr-absender@gmail.com
-GMAIL_APP_PASSWORD=xxxxxxxxxxxxxxxx
+WEBDE_USER=mpetrasco@web.de
+WEBDE_PASSWORD=ihr-web.de-passwort
 CONTACT_TO=mpetrasco@web.de
 ```
 
 4. Server neu starten (`npm run dev`).
 
-> **Hinweis:** Das App-Passwort funktioniert nur, wenn 2-Faktor-Authentifizierung am Konto aktiv ist. Normales Gmail-Passwort funktioniert nicht.
-
-### Alternative: anderer SMTP-Anbieter
-
-In `app/[lang]/contact-action.ts` kann `nodemailer.createTransport({ service: 'gmail', ... })` durch einen beliebigen SMTP-Provider (Strato, IONOS, web.de, etc.) ersetzt werden.
+> **Fallback:** Sind `WEBDE_USER` / `WEBDE_PASSWORD` nicht gesetzt, wird – falls vorhanden – Gmail SMTP mit `GMAIL_USER` / `GMAIL_APP_PASSWORD` verwendet.
 
 ## Hero-Video ersetzen
 
@@ -60,7 +56,7 @@ app/
     dictionaries.ts
     layout.tsx           # Root-Layout (HTML, Fonts, Metadata)
     page.tsx             # Hauptseite mit allen Sektionen
-    contact-action.ts    # Server Action → Gmail SMTP
+    contact-action.ts    # Server Action → web.de SMTP
   _components/
     Logo.tsx
     Navbar.tsx
